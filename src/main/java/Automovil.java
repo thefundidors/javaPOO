@@ -13,4 +13,18 @@ public class Automovil {
         System.out.println("Color: " + this.color);
         System.out.println("Modelo: " + this.modelo);
     }
+
+    public String acelerar(int rpm){
+        return "El auto " + fabricante + " acelerando a " + rpm + "rpm";
+    }
+
+    public String frenar(){
+        return fabricante + " " + modelo + " frenando!";
+    }
+
+    public String acelerarFrenar(int rpm){
+        String acelerar = this.acelerar(rpm);
+        String frenar = this.frenar();
+        return acelerar + "\n" + frenar;
+    }
 }

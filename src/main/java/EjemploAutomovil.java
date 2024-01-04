@@ -9,5 +9,9 @@ public class EjemploAutomovil {
 
 
         auto.detalle();
+
+        System.out.println(auto.acelerar(300));
+        System.out.println(auto.frenar());
+        System.out.println(auto.acelerarFrenar(500));
     }
 }
