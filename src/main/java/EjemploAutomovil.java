@@ -1,2 +1,5 @@
-package PACKAGE_NAME;public class EjemploAutomovil {
+public class EjemploAutomovil {
+    public static void main(String[] args) {
+
+    }
 }
