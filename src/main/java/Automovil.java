@@ -1,10 +1,10 @@
 public class Automovil {
 
-    String fabricante;
-    String modelo;
-    String color;
-    double cilindrada;
-    int capacidadEstanque = 40;
+    private String fabricante;
+    private String modelo;
+    private String color;
+    private double cilindrada;
+    private int capacidadEstanque = 40;
 
 
     public void detalle(){
