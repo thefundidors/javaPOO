@@ -7,10 +7,7 @@ public class EjemploAutomovil {
         auto.color="Rojo";
         auto.modelo="Megane";
 
-        System.out.println("Los datos del automovil son:");
-        System.out.println("Fabricante: " + auto.fabricante);
-        System.out.println("Cilindrada: " + auto.cilindrada);
-        System.out.println("Color: " + auto.color);
-        System.out.println("Modelo: " + auto.modelo);
+
+        auto.detalle();
     }
 }
